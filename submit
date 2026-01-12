@@ -1,0 +1,1 @@
+enqueue_compss   --lang=python   --python_interpreter=/scratch/cenapadrjsd/rafael.terra2/conda-env/bin/python   --queue=sequana_cpu_bigmem   --num_nodes=10   --exec_time=100   --log_dir=$PWD   --pythonpath=$(pwd)   main.py   --input inputs100GB/   --output result_pycompss100GB.txt --buckets 48
