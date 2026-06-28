@@ -1,0 +1,1 @@
+enqueue_compss   --lang=python   --python_interpreter=/scratch/cenapadrjsd/rafael.terra2/conda-env/bin/python   --queue=sequana_cpu_dev   --num_nodes=1 --exec_time=20   --log_dir=$PWD   --pythonpath=$(pwd)  --tracing   --monitoring=all  main.py   --input /scratch/cenapadrjsd/reiglan.lourenco/inputs_benchmark/inputs200GB/   --output result_pycompss12GB.txt --buckets 12 --limit 12
